@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #ff6b6b;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #ff6b6b;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #ff6b6b;
+}
+
+.hero h3 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hero .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+.hero .buttons a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.hero .buttons a:first-child {
+    background-color: #ff6b6b;
+}
+
+.about, .projects, .certificates, .experience {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2, .projects h2, .certificates h2, .experience h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.about .details div, .about .skills div {
+    margin: 10px 20px;
+    text-align: left;
+}
+
+.about .skills div .bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.about .skills div .bar div {
+    height: 100%;
+    background-color: #ff6b6b;
+}
+
+.projects .project {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projects .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projects .project .content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f5e6e6;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff6b6b;
+    border-radius: 5px;
+}
